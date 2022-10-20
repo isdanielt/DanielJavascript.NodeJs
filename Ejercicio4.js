@@ -6,7 +6,3 @@ let numero2 = parseInt (prompt("intorduzca el segundo numero:"));
 let resultado = numero1 + numero2
 console.log(resultado);
 
-
-
-
-
