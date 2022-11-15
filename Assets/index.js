@@ -2,9 +2,9 @@ const express = require("express")
 
 let app = express()
 
-app.use(express.static ("Assets"))
+app.use(express.static ("."))
 app.get('/', function(req, res){
-    res.sendFile(__dirname + "/Assets/etiqueta/index.html")
+    res.sendFile(__dirname + "/etiqueta/index.html")
 });
 
 app.listen(3008);
