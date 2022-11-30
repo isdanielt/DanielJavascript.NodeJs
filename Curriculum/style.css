@@ -1,0 +1,30 @@
+body{
+    margin: auto;
+}
+.conteiner{
+    display: flex;
+    width: 650px;
+    letter-spacing: 1px;
+}
+
+.titulos{
+    text-transform: uppercase;
+}
+
+
+.imagen{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    border: solid black 1px;
+}
+
+.seccion1{
+    background-color: bisque;
+    width: 200px;
+}
+
+.seccion2{
+background-color: brown;
+}
+
