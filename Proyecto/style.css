@@ -9,3 +9,19 @@
 .seccion1{
 background-color: red;
 }
+
+.imagen{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+
+}
+
+.texto{
+    margin: auto;
+}
+.imagen2{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
