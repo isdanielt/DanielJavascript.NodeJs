@@ -2,7 +2,7 @@ const express = require("express")
 
 let app = express()
 
-app.use(express.static ("."))
+app.use(express.static ("Assets/style.css"))
 app.get('/', function(req, res){
     res.sendFile(__dirname + "/etiqueta/index.html")
 });
