@@ -1,0 +1,57 @@
+body{
+    font-size: 24px;
+    background-image: linear-gradient( rgb(146, 69, 182), rgb(32, 38, 141));
+}
+
+h1{
+    text-align: center;
+    font-size: 1.5em;
+
+}
+
+.subtitulo{
+   text-align: center; 
+   font-size: 0.9em;
+
+}
+
+.grupo-input{
+font-size: 1em;
+}
+
+.grupo-input > input{
+    border: 0.1em solid white;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    padding: 0.5em;
+    margin: 0.3em;
+    
+}
+
+.grupo-input > label {
+    color: white;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    padding: 0.5em 0.8em;
+    border: white solid 0.1em;
+    border-radius: 0.5em;
+
+}
+
+.btn:hover{
+    color: red;
+}
+
+#mi-formulario{
+    margin: auto;
+    text-align: center;
+    max-width: 400px;
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 1em 4em;
+}
+

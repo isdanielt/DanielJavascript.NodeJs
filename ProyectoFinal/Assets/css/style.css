@@ -8,6 +8,7 @@
 
 body{
     margin-left: 80px;
+    transition: 300ms;
 }
 
 header{
@@ -132,4 +133,15 @@ transform: translatex(10px);
 
 .menu__side_move{
     width: 250px;
+}
+
+.foto{
+    width: 250px;
+    margin: auto;
+}
+
+.imagen{
+    display: flex;
+    padding: 250px;
+    cursor: default;
 }
