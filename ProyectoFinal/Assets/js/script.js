@@ -11,3 +11,23 @@ var body = document.getElementById("body");
         body.classList.toggle("body_move");
         side_menu.classList.toggle("menu__side_move")
     }
+
+//si el evento de la pagina es menor a 760px, ocultara el menu al recargar la pagina
+if (window.innerWidth < 760){
+    body.classList.add("body_move")
+    side_menu.classList.add("menu__side_move");
+}
+
+//haciendo el menu responsive
+window.addEventListener("resize", function(){
+    if (window.innerWidth > 760){
+
+        body.classList.remove("body_move");
+        side_menu.classList.remove("menu__side_move")
+    }
+
+    if (window.innerWidth < 760){
+        body.classList.add("body_move");
+        side_menu.classList.add("menu__side_move")
+    }
+})
