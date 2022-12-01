@@ -144,10 +144,15 @@ transform: translatex(10px);
 
 .imagen{
     display: flex;
-    padding: 250px;
+    padding: 200px;
     cursor: default;
+    flex-direction: column;
+    text-align: center;
 }
 
+.texto{
+text-align: 20px;
+}
 
 
 @media screen and (max-width: 760px) {
